@@ -202,6 +202,104 @@ width: 99vw;
 }
 
 @media only screen and (max-width:1000px) {
+    .header{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+        width: auto;
+        padding: 2pw;
+        margin: 0;
+    }
+    .personam4{
+        text-align: center;
+        /* margin: 0; */
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        align-items: stretch;
+    }
+    li{
+        
+        /* padding: auto; */
+    }
+    .craft,.craft::before{
+        height: 40vh;
+    }
+    .mainDiv2 {
+        height: auto;
+       
+    }
+    .mainDiv2_1 {
+        margin-top: 1vh;
+        height: auto;
+      
+    }
+    .div2_1{
+        height: auto;
+        width: auto;
+        margin: 4vw;
+        padding: 5vw;
+        font-size: small;
+        text-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .div2_1button {
+        margin-top: 1vh;
+        padding: 2vw;
+        font-size: small;
+    }
+    .mainDiv2_2{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .div2_2 {
+        text-align: center;
+        width: auto;
+        font-size: small;
+        margin: 3vw;
+        padding: 3vh;
+        /* height: 30vh; */
+        height: auto;
+    }
+    .div2_2P {
+        width: auto;
+        text-align: center;
+        text-wrap: wrap;
+        font-size: 2em;
+        margin: 2vw;
+    }
+    .mainDiv3 {
+        margin: 0;
+        height: auto;
+        width: 99vw;
+        background-color: rgb(244, 193, 244);
+    }
+
+    .mainspan3_2{
+        height: 25vh;
+    }
+    .mainspan3_1{
+        height: 25vh;
+    }
+    .mainspan3_1img {
+        height: 10vh;
+        width: 40vw;
+    }
+    .mainspan3_2img {
+        height: 10vh;
+        width: 20vw;
+    }
+}
+/* @media only screen and (max-width:1000px) {
     .craft,.craft::before{
         height: 40vh;
     }
@@ -261,5 +359,5 @@ width: 99vw;
     .mainspan3_2img {
         height: 10vh;
         width: 20vw;
-    }
+    } */
 }
