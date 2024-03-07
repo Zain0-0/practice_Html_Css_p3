@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin: 0;
+    background-color: rgb(63, 95, 62);
+    height: 10vh;
+    width: 99vw;    
+}
+.personam4 {
+    padding: 2vw; 
+    color: aliceblue;
+    filter: brightness(100%);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 2vw; /* Adjust padding with viewport units */
+    margin: 0;
+    width: 40vw;
+    color: aliceblue;
+    filter: brightness(100%);
+}
+main{
+    margin: 0;
+}
+.craft{
+    margin: 0;
+    background-image: url(https://c0.wallpaperflare.com/preview/696/495/714/flower-office-shop-arrangement.jpg) ;
+    /* filter: brightness(80%); */
+    height: 100vh;
+    width: 99vw;
+    background-color: rgb(27, 70, 55);
+    
+}
+.craft::before {
+    margin-top:10vh ;
+    content: ""; /* Create a pseudo-element */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 99vw;
+   
+}
+#firstButton{
+    width: 8vw;
+    background: none;
+    margin-left: 8%;
+    font-size: 120%;
+}
+.firstP{
+    font-size: 120%;
+    text-wrap: wrap;
+}
+.h1{
+    padding-top: 15%;
+    font-size: 300%;
+}
+.firstP,.h1,.firstButton{
+    color: aliceblue;
+    filter: brightness(100%);
+    display: flex;
+    margin: 0;
+}
+.firstP,.h1{
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+.mainDiv2{
+    height: 100vh;
+    width: 99vw;
+    background-color: rgb(247, 241, 241);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.mainDiv2_1{
+    margin: 0;
+    height: 60vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 99vw;
+}
+.div2_1{
+    height: 40vh;
+    width: 15vw;
+    margin: 3vh;
+    padding: 4vh;
+    font-size: larger;
+    text-wrap: wrap;
+}
+.style{
+    background-color: rgb(74, 123, 107);
+}
+.brand{
+    background-color: pink;
+}
+.fashion{
+    background-color: rgb(208, 162, 208);
+}
+.design{
+    background-color: rgb(50, 110, 104);
+}
+.mainDiv2_2{
+    margin: 0;
+    background-color: rgb(88, 78, 64);
+    height: 40vh;
+}
+.div2_1button{
+    margin-top: 10vh;
+    font-size: medium;
+    font-weight: bold;
+    background: none;
+    border: none;
+    text-decoration: 2% underline black;
+}
+.mainDiv2_2{
+display: flex;
+/* flex-wrap: wrap; */
+text-wrap: wrap;
+background-color: blanchedalmond;
+width: 99vw;
+
+}
+.div2_2{
+    width: 48vw;
+    font-size: large;
+    margin: 5vh;
+    padding: 3vh;
+}
+.div2_2P{
+    margin-left: 20vw;
+    width: 25vw;
+    text-align: right;
+    text-wrap: wrap;
+    font-size: 2em;
+    margin-top: 4vh;
+}
+.div2_2button{
+    font-size: medium;
+    font-weight: bold;
+    background: none;
+    border: none;
+    text-decoration:  underline black;
+}
+.mainDiv3{
+    margin: 0;
+    height: 80vh;
+    width: 99vw;
+    background-color: rgb(244, 193, 244);
+    
+}
+.mainDiv3h{
+    margin: 0;
+    padding: 5vh;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.mainDiv3_1{
+    display:flex ;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    
+}
+.mainspan3_1{
+   height: 60vh;
+   width: 60vw;
+   padding-left: 10vw;
+}
+.mainspan3_1img{
+   height: 50vh;
+   width: 40vw;
+}
+.mainspan3_1Hp{
+    /* padding-left: 10vw;  */
+    font-size: large;
+    
+}
+.mainspan3_2{
+    height: 60vh;
+    width: 40vw;
+    padding-left: 10vw;
+ }
+ .mainspan3_2img{
+    height: 50vh;
+   width: 20vw;
+}
+
+@media only screen and (max-width:1000px) {
+    .craft,.craft::before{
+        height: 40vh;
+    }
+    .mainDiv2 {
+        height: 96vh;
+       
+    }
+    .mainDiv2_1 {
+        margin-top: 1vh;
+        height: 55vh;
+      
+    }
+    .div2_1{
+        height: 55vh;
+        width: 11vw;
+        margin: 0;
+        padding: 5vw;
+        font-size: small;
+        text-wrap: wrap;
+    }
+    .div2_1button {
+        margin-top: 0;
+        padding: 0;
+        font-size: smaller;
+    }
+    .div2_2 {
+        width: 48vw;
+        font-size: small;
+        margin: 0;
+        padding: 3vh;
+        height: 30vh;
+    }
+    .div2_2P {
+        width: 25vw;
+        text-align: right;
+        text-wrap: wrap;
+        font-size: 2em;
+        margin-top: 4vh;
+    }
+    .mainDiv3 {
+        margin: 0;
+        height: 60vh;
+        width: 99vw;
+        background-color: rgb(244, 193, 244);
+    }
+
+    .mainspan3_2{
+        height: 25vh;
+    }
+    .mainspan3_1{
+        height: 25vh;
+    }
+    .mainspan3_1img {
+        height: 10vh;
+        width: 40vw;
+    }
+    .mainspan3_2img {
+        height: 10vh;
+        width: 20vw;
+    }
+}
