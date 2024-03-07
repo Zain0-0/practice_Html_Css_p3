@@ -206,17 +206,17 @@ width: 99vw;
         height: 40vh;
     }
     .mainDiv2 {
-        height: 96vh;
+        height: auto;
        
     }
     .mainDiv2_1 {
         margin-top: 1vh;
-        height: 55vh;
+        height: auto;
       
     }
     .div2_1{
-        height: 55vh;
-        width: 11vw;
+        height: auto;
+        width: auto;
         margin: 0;
         padding: 5vw;
         font-size: small;
