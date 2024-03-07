@@ -232,6 +232,10 @@ width: 99vw;
     .craft,.craft::before{
         height: 40vh;
     }
+    #firstButton{
+        width: auto;
+        font-size: small;
+    }
     .mainDiv2 {
         height: auto;
        
