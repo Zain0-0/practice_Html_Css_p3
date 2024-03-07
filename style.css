@@ -226,7 +226,7 @@ width: 99vw;
         align-items: stretch;
     }
     li{
-        margin-bottom:3vw;
+        margin-bottom:5vw;
         /* padding: auto; */
     }
     .craft,.craft::before{
